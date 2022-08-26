@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+button {
+  background-color: #282c34;
+  border: 0;
+  border-radius: 320px;
+  box-shadow: -5px -5px 20px #393f4b, 5px 5px 20px #000;
+  color: #fff;
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  margin: 10px 0;
+  outline: 0;
+  padding: 16px;
+  transition: all 0.2s ease-in-out;
+  width: 15vw;
+}
+
+button:hover {
+  box-shadow: -2px -2px 5px #393f4b, 2px 2px 5px #000;
+}
+button:active {
+  box-shadow: inset 1px 1px 2px #000, inset -1px -1px 2px #393f4b;
+}
+
+input{
+  display: block;
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: #fff;
+  border: 0;
+  border-radius: 320px;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-right: 8px;
+  outline: 0;
+  padding: 16px;
+  transition: all .2s ease-in-out;
+  width: 350px;
+  margin: 10px;
+}
